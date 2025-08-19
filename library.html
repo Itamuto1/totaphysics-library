@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" 
+  <title>Library — Totaphysics</title>
+  <link rel="stylesheet" href="assets/css/site.css">
+  <link rel="stylesheet" href="assets/css/backgrounds.css">
+  <link rel="stylesheet" href="assets/css/colorful.css" > 
+</head>
+<body class="bg-library">
+<header class="site">
+  <div class="wrap nav">
+    <div class="brand">Totaphysics</div>
+    <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="navList">☰ Menu</button>
+    <ul id="navList">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="lawbook.html">Lawbook</a></li>
+      <li><a href="library.html">Library</a></li>
+      <li><a href="labs.html">Labs</a></li>
+      <li><a href="simulation.html">Simulation</a></li>
+      <li><a href="institute.html">Institute</a></li>
+      <li><a href="ai.html">AI</a></li>
+      <li><a href="dao.html">DAO</a></li>
+      <li><a href="wallet.html">Wallet</a></li>
+      <li><a href="crowdfund.html">Crowdfund</a></li>
+      <li><a href="donate.html">Donate</a></li>
+      <li><a href="press.html">Press</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="docs/index.html">Docs</a></li>
+    </ul>
+    <button id="themeToggle" class="theme-toggle" title="Toggle theme">☀︎/☾</button>
+  </div>
+</header>
+
+  
+<main class="wrap section">
+    
+  <h1 class="gold center">📚 Library</h1>
+  <p class="center tiny">Primary scrolls, whitepapers, and PDFs</p>
+  <div class="grid-cards">
+    <div class="card"><h3>Scholar Handbook</h3><p>Constitution & Guide</p><p><a href="docs/Totaphysics_Scholar_Handbook.pdf">Open PDF</a></p></div>
+    <div class="card"><h3>Enature Lawbook</h3><p>30 Eternal Laws across five realms</p><p><a href="lawbook.html">Open Lawbook</a></p></div>
+    <div class="card"><h3>DAO Charter</h3><p>Governance in practice</p><p><a href="docs/dao_charter.pdf">Download</a></p></div>
+  </div>
+
+  </main>
+  
+<footer class="site">
+  <div class="wrap">© <span id="year"></span> Totaphysics — Scroll Civilization of the Eternal</div>
+</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
